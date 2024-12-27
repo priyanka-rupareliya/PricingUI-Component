@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    padding: 50px 50px;
+
+}
+
+.xyz {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: white;
+    width: 250px;
+    height: 210px;
+    position: relative;
+    border: 1px solid lightslategrey;
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+
+.box2 {
+
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid orange;
+    bottom: 230px;
+    left: 437px;
+    padding: 10px 10px;
+}
+
+h5 {
+    color: black;
+    font-weight: 900;
+}
+
+#button1 {
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5PX 10px;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+
+.box3 {
+    background-color: white;
+    width: 250px;
+    height: 210px;
+    position: relative;
+    border: 1px solid lightslategrey;
+    margin-right: 250px;
+    margin-top: 20px;
+
+
+
+}
+
+.box4 {
+
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid orange;
+    bottom: 230px;
+    right: 447px;
+    padding: 10px 10px;
+}
+
+
+#button2 {
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5PX 10px;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+@media only screen and (max-width:600px) {
+    .container {
+       
+
+}
+}
